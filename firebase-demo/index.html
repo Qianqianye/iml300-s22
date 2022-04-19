@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Firebase p5.js Canvas Demo</title>
+
+    <!-- Include firebase scripts from CDN      -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase.js"></script>
+    <!-- Include p5js scripts from CDN      -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="container">
+        <h2>Firebase p5.js Canvas Demo</h2>
+      <p>Draw or/and drop an image on the canvas, then click the 'save' button.</p>
+      <div id="canvasContainer"></div>
+
+      <button id="saveButton">save</button>
+      <button id="clearButton">clear</button>
+
+      <div id="drawingContainer"></div>
+    </div>
+  </body>
+</html>
