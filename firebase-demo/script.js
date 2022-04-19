@@ -81,7 +81,7 @@ function gotData(data) {
   for (var i = 0; i < keys.length; i++) {
     let k = keys[i];
     let picture = drawings[k].picture;
-    console.log(picture);
+//    console.log(picture);
   
     let allImages = createImg(picture, () => {
       // allImages.size(AUTO, 80);
