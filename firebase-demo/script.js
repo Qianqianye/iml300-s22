@@ -3,12 +3,13 @@ let isDrawing = false;
 
 // Replace with your own web app's Firebase configuration. 
 const firebaseConfig = {
-  apiKey: "AIzaSyBMsRfJ7ylKi_FUW9lZc9iC0q4mx55ooO0",
-  authDomain: "p5-collective-canvas-s22.firebaseapp.com",
-  projectId: "p5-collective-canvas-s22",
-  storageBucket: "p5-collective-canvas-s22.appspot.com",
-  messagingSenderId: "630579009295",
-  appId: "1:630579009295:web:2b5c1c75dad1105ce4907a"
+  apiKey: "AIzaSyCdt31bjL6-1G4NDD2fICMxufF-wwIMaVI",
+  authDomain: "iml300-f22.firebaseapp.com",
+  projectId: "iml300-f22",
+  storageBucket: "iml300-f22.appspot.com",
+  messagingSenderId: "517295195501",
+  appId: "1:517295195501:web:d088b4ffe0d43a1066c664",
+  measurementId: "G-MHSZWSLL7E"
 };
 
 firebase.initializeApp(firebaseConfig);

@@ -1,3 +1,25 @@
 body {
     background-color: lime;
 }
+
+
+.container{
+  font-size: 30px;
+/*   background-color: yellow; */
+  
+  margin:auto;
+  width:70vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+
+.item{
+  background-color: #b299ed;
+  color:white;
+  margin:0.2em;
+  padding: 1em;
+  border-radius: 15px;
+  box-shadow: 0 0 50px #fff;
+  
+  /*   border: 1px solid white; */
+}
